@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Estilo de texto para los parrafos cn CSS3*/
+
+span{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	}
+	
+a{
+	text-decoration:none;
+	color:inherit;
+	}
+a:hover {
+	font-weight:bold;
+	text-decoration:underline;
+	}

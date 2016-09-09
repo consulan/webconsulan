@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+#ap21{
+	-webkit-transition:width height;
+	-webkit-transition-duration:0.8s;
+	-webkit-transition-timing-function:linear;
+	
+	-moz-transition:width height;
+	-moz-transition-duration:0.8s;
+	-moz-transition-timing-function:linear;
+	
+	transition:width height;
+	transition-duration:0.8s;
+	transition-timing-function:linear;
+	width:48em;
+	height:25em;
+	}
+	
+/*Parrafo 22 animation*/
+#ap22{
+	-webkit-transition:width height left;
+	-webkit-transition-duration:0.8s;
+	-webkit-transition-timing-function:linear;
+	
+	-moz-transition:width height;
+	-moz-transition-duration:0.8s;
+	-moz-transition-timing-function:linear;
+	
+	transition:width height;
+	transition-duration:0.8s;
+	transition-timing-function:linear;
+	width:48em;
+	height:25em;
+	left:3em;
+	}
+	
+/*Parrafo 23 animation*/
+#ap23{
+	-webkit-transition:width height;
+	-webkit-transition-duration:0.8s;
+	-webkit-transition-timing-function:linear;
+	
+	-moz-transition:width height;
+	-moz-transition-duration:0.8s;
+	-moz-transition-timing-function:linear;
+	
+	transition:width height;
+	transition-duration:0.8s;
+	transition-timing-function:linear;
+	width:48em;
+	height:25em;
+	top:0.2em;
+	}
+	
+/*Parrafo 24 animation*/
+
+
+/*@-moz-keyframes parrafo24 {
+	from {width:20em; height:8em; top:12em; left:30em;}
+	to {width:48em; height:20em; top:0.2em; left:3em;}
+}*/
+
+#ap24{
+	-webkit-transition:width height;
+	-webkit-transition-duration:0.8s;
+	-webkit-transition-timing-function:linear;
+	
+	-moz-transition:width height;
+	-moz-transition-duration:0.8s;
+	-moz-transition-timing-function:linear;
+	
+	transition:width height;
+	transition-duration:0.8s;
+	transition-timing-function:linear;
+	width:48em;
+	height:25em;
+	left:3em;
+	top:0.2em;
+	}
+/*Parrafo 25*/
+#ap25{
+	-webkit-transition:width height left;
+	-webkit-transition-duration:0.8s;
+	-webkit-transition-timing-function:linear;
+	
+	-moz-transition:width height left;
+	-moz-transition-duration:0.8s;
+	-moz-transition-timing-function:linear;
+	
+	transition:width height left;
+	transition-duration:0.8s;
+	transition-timing-function:linear;
+	width:70em;
+	height:20em;
+	left:3em;
+	}

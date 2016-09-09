@@ -1,0 +1,130 @@
+/*RESET*/
+* {  
+    padding: 0;  
+    margin: 0;  
+    border: 0;  
+}
+
+/*FIN RESET*/
+
+/*CENTRADO*/
+body{text-align:center;}
+#contenedor{position:relative; margin:0 auto; width:1025px; height:580px;display:inherit;}
+/*FIN CENTRADO*/
+
+/*ELEMENTOS PRINCIPALES DE MAQUETADO*/
+#banner,#contenedorMenu,#titulo,#linea,#piedepagina{position:absolute;}
+
+#banner{left:20px; top:10px; z-index:10000;}
+#contenedorMenu{left:0px; top:0px; height:200px; width:100%;}
+#linea,#piedepagina{left:0px;top:9em; height:20px; background:#FF9900; width:100%;}
+/*FIN ELEMENTOS MAQUETADO*/
+
+/*ELEMENTOS DEL CUERPO*/
+#titulo{left:12em;top:6em;}
+#qs,#wyd,#redestxt,#domotxt,#contact{position:fixed; left:100px; z-index:10000;}
+#home,#web,#redes,#domo,#contacto{position:fixed; left:10px; width:70px; height:70px;overflow:hidden;}
+#home,#qs{top:170px;}
+#web,#wyd{top:250px;}
+#redes,#redestxt{top:330px;}
+#domo,#domotxt{top:410px;}
+#contacto,#contact{top:490px;}
+/*FIN ELEMENTOS DEL CUERPO*/
+
+/*ELEMENTOS DE PAGINA*/
+#pagina2,#pagina3,#pagina4,#pagina5,#descuento{position:absolute; background-color:#FFF; top:1em; left:2em; visibility:hidden;}
+#pagina1{position:absolute;background-color:#FFF; top:1em; left:2em; }
+#cuerpo{position:relative; margin:0 auto; top:30%;}
+#corporativo{position:absolute; left:30%; opacity:0.6;}
+.cerrar{position:absolute;left:93%;top:3px;}
+
+/*pagina1*/
+#parrafo1,#parrafo2,#parrafo3,#parrafo4,#parrafo5{position:absolute; top:8em; background-color:#FFFFFF;}
+#parrafo1,#parrafo2,#parrafo3,#parrafo4,#parrafo5{padding:0.2em 0.9em; border-radius:15px; width:20em; height:8em; border:3px solid #09F; text-align:justify;color:#009; overflow:hidden;}
+
+#super{left:15px; top:115px; z-index:9999;}
+#parrafo1,#parrafo2 {top:0.5em;}
+#parrafo1,#parrafo3{left:3em;}
+#parrafo3,#parrafo4{top:12em;}
+#parrafo2,#parrafo4{left:33em;}
+
+#parrafo1:hover{ background-color:#993399; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo2:hover{ background-color:#996600; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo3:hover{ background-color:#FF9900; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo4:hover{ background-color:#339900; color:#FFFFFF; cursor:pointer; z-index:999;}
+
+#parrafo5{left:18em; top:7em;}
+#parrafo5:hover{ background-color:#3366FF; color:#FFFFFF; cursor:pointer; z-index:999;}
+#Titulo1{position:relative; margin:0 auto; color:#000000; top:1.5em; font-size:1.6em; text-align:center; text-shadow:#999 2px 0px 1px;}
+/*fin*/
+
+/*pagina2*/
+/* Se realizara con CSS y animation*/
+#parrafo21,#parrafo22,#parrafo23,#parrafo24,#parrafo25{position:absolute; top:8em; background-color:#FFFFFF;}
+#parrafo21,#parrafo22,#parrafo23,#parrafo24,#parrafo25{padding:0.2em 0.9em; border-radius:15px; width:20em; height:8em; border:3px solid #09F; text-align:justify;color:#009; overflow:hidden;}
+
+#parrafo21,#parrafo22,#parrafo25 {top:0.5em;}
+#parrafo21,#parrafo23{left:3em;}
+#parrafo23,#parrafo24{top:12em;}
+#parrafo22,#parrafo24{left:30em;}
+
+#parrafo21:hover{ background-color:#993399; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo22:hover{ background-color:#996600; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo23:hover{ background-color:#FF9900; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo24:hover{ background-color:#339900; color:#FFFFFF; cursor:pointer; z-index:999;}
+
+
+#parrafo25{left:18em; top:7em;}
+#parrafo25:hover{ background-color:#3366FF; color:#FFFFFF; cursor:pointer; z-index:999;}
+
+/*fin*/
+
+/*pagina3*/
+#parrafo31,#parrafo32,#parrafo33,#parrafo34{position:absolute; top:8em; background-color:#FFFFFF;}
+#parrafo31,#parrafo32,#parrafo33,#parrafo34{padding:0.2em 0.9em; border-radius:15px; width:20em; height:8em; border:3px solid #09F; text-align:justify;color:#009; overflow:hidden;}
+
+#parrafo31,#parrafo32{top:0.5em;}
+#parrafo31,#parrafo33{left:3em;}
+#parrafo33,#parrafo34{top:12em;}
+#parrafo32,#parrafo34{left:30em;}
+
+#parrafo31:hover{ background-color:#993399; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo32:hover{ background-color:#996600; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo33:hover{ background-color:#FF9900; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo34:hover{ background-color:#339900; color:#FFFFFF; cursor:pointer; z-index:999;}
+/*fin*/
+
+/*pagina4*/
+#parrafo41,#parrafo42,#parrafo43,#parrafo44{position:absolute; top:8em; background-color:#FFFFFF;}
+#parrafo41,#parrafo42,#parrafo43,#parrafo44{padding:0.2em 0.9em; border-radius:15px; width:20em; height:8em; border:3px solid #09F; text-align:justify;color:#009; overflow:hidden;}
+
+#parrafo41,#parrafo42{top:0.5em;}
+#parrafo41,#parrafo43{left:3em;}
+#parrafo43,#parrafo44{top:12em;}
+#parrafo42,#parrafo44{left:30em;}
+
+#parrafo41:hover{ background-color:#993399; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo42:hover{ background-color:#996600; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo43:hover{ background-color:#FF9900; color:#FFFFFF; cursor:pointer; z-index:999;}
+#parrafo44:hover{ background-color:#339900; color:#FFFFFF; cursor:pointer; z-index:999;}
+
+
+/*fin*/
+
+/*pagina5*/
+#parrafo51{position:absolute; left:18em; top:7em; background-color:#FFFFFF;}
+#parrafo51{ padding:0.2em 0.9em; border-radius:15px; width:20em; height:8em; border:3px solid #09F; text-align:justify;color:#009; overflow:hidden;}
+#parrafo51:hover{ background-color:#993399; cursor:pointer;}
+
+/*fin*/
+
+/*Elements del menu*/
+.texto {visibility:hidden;}
+/*fin*/
+
+/*FIN ELEMENTOS DE PAGINA*/
+
+
+/*PIE DE PAGINA*/
+#piedepagina{top:95%; z-index:-12;height:40px;}
+#textoPie{position:relative;top:10px;}

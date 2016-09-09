@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*RESET*/
+* {  
+    padding: 0;  
+    margin: 0;  
+    border: 0;  
+}
+
+/*FIN RESET*/
+
+/*COMUNES*/
+#texto, #recuadroLogo{ position:absolute;}
+/* FIN COMUNES*/
+body { text-align:center; }
+#posicionador {
+	margin:0 auto;
+	position:relative;	
+	width:500px;
+	height:500px;
+}
+#texto {
+		left:10px;
+		top:89%;
+	}
+	
+#recuadroLogo{
+	left:15%;
+	top:20%;
+	}
